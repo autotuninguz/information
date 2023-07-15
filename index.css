@@ -97,7 +97,8 @@ a{
    
     font-family: "Light"; 
    
-    src: url("./font/BankGothicBT-Light.ttf") format("truetype"); 
+    /* src: url("./font/BankGothicBT-Light.ttf") format("truetype");  */
+    src: url("BankGothicBT-Light.ttf") format("truetype"); 
     /* font-style: normal; 
     font-weight: normal;  */
     } 
