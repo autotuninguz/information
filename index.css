@@ -431,3 +431,37 @@ body {
                 }
     
             }
+            @media (max-width: 294px){
+               .klient_img{
+                height: 43px;
+               }
+            }
+            @media (max-width: 269px){
+                .klient_img{
+                 height: 41px;
+                }
+             }
+            @media (max-width: 283px){
+                .header__title{
+                    font-size: 23px;
+                }
+            }
+            @media (max-width: 248px){
+                .header__title{
+                    font-size: 21px;
+                }
+                
+            }
+            @media (max-width: 257px){
+                .reklama-title{
+                    font-size: 23px;
+                }
+                .haeder__text-1{
+                    font-size: 19px;
+                }
+                .reklama-title-1{
+                    font-size: 25px;
+                }
+
+            }
+
