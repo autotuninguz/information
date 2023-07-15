@@ -98,8 +98,8 @@ a{
     font-family: "Light"; 
    
     src: url("./font/BankGothicBT-Light.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
+    /* font-style: normal; 
+    font-weight: normal;  */
     } 
 .haeder__text{
    display: block;
@@ -349,7 +349,7 @@ body {
                
                 
             }}
-        @media (max-width: 315px){
+        @media (max-width: 329px){
             .klient_img{
                 height: 45px;
                
@@ -417,7 +417,7 @@ body {
                     font-size: 26px;
                 }
                 .haeder__text-1{
-                    font-size: 22px;
+                    font-size: 20px;
                 }
                 .haeder__text{
                     font-size: 24px;
