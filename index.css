@@ -97,17 +97,16 @@ a{
    
     font-family: "Light"; 
    
-    /* src: url("./font/BankGothicBT-Light.ttf") format("truetype");  */
+   
     src: url("BankGothicBT-Light.ttf") format("truetype"); 
-    /* font-style: normal; 
-    font-weight: normal;  */
+   
     } 
-.haeder__text{
+/* .haeder__text{
    display: block;
     justify-content: center;
     text-align: center;
     font-size: 42px;
- /* font-family: cursive; */
+ 
     padding-top: 10px;
     font-family: 'Brygada 1918', serif;
     font-family: 'Lato', sans-serif;
@@ -122,27 +121,28 @@ a{
   
    
     
-}
+} */
+@font-face {
+   
+    font-family: "Medium"; 
+   
+   
+    src: url("BankGothicBT-Medium.ttf") format("truetype"); 
+   
+    } 
 .haeder__text-1{
     text-align: center;
     color: rgb(239, 222, 222);
     font-size: 37px;
     
    
-    /* font-family: cursive; */
+    font-family: "Medium"; 
     padding-top: 10px;
     padding-bottom: 20px;
-    font-family: 'Brygada 1918', serif;
-    font-family: 'Brygada 1918', serif;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Zilla Slab', serif;
+    
+    
 }
+
 .btn__info-link{
     padding: 10px 30px;
     border-radius: 15px;
@@ -157,6 +157,7 @@ a{
     align-items: center;
     text-align: center;
     transition: 500ms;
+    font-family: "Light" ;
 }
 
     /* @keyframes glowing {
@@ -227,6 +228,7 @@ body {
     text-align: center;
     font-size: 30px;
     color: rgb(244, 234, 234);
+    font-family: "Medium"; 
 }
 .round{
     border-radius: 100px;
@@ -251,6 +253,7 @@ body {
 .reklama-title-1{
     font-size: 36px;
     padding-top: 10px;
+    font-family: "Medium"; 
 }
 
 
@@ -328,7 +331,7 @@ body {
         
     }
     .header__title{
-        font-size: 30px;
+        font-size: 35px;
     }
     .haeder__text{
         font-size: 35px;
@@ -438,7 +441,7 @@ body {
                     font-size: 25px;
                 }
                 .haeder__text-1{
-                    font-size: 20px;
+                    font-size: 23px;
                 }
                 .klient_img{
                     height: 46px;   
@@ -460,6 +463,9 @@ body {
                .klient_img{
                 height: 43px;
                }
+               .reklama-title-1{
+                font-size: 24px;
+            }
             }
             @media (max-width: 269px){
                 .klient_img{
@@ -468,7 +474,10 @@ body {
              }
             @media (max-width: 283px){
                 .header__title{
-                    font-size: 20px;
+                    font-size: 21px;
+                }
+                .reklama-title{
+                    font-size: 19px;
                 }
             }
             @media (max-width: 248px){
@@ -488,5 +497,11 @@ body {
                     font-size: 25px;
                 }
 
+            }
+            @media (max-width: 218px){
+                .header__title{
+                    font-size: 13px;
+                }
+                
             }
 
